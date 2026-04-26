@@ -23,7 +23,7 @@ import { createWallet, createProviders } from './wallet.js';
 import { tokenContract, tokenConfig, receiveContract, receiveConfig } from './contracts.js';
 import { computeCoinCommitment } from './commitment.js';
 import { queryZswapEvents, discoverMtIndex } from './indexer.js';
-import { encodeRecipient, Recipient, toHex, fromHex } from '@midnight-ntwrk/compact-runtime';
+import { toHex, fromHex } from '@midnight-ntwrk/compact-runtime';
 import { encodeContractAddress } from '@midnight-ntwrk/ledger-v8';
 
 // ——— Load Addresses from deployments.json ———————————————
