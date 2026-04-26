@@ -13,7 +13,8 @@ Full round trip:
 
 ### Prerequisites
 
-- Node.js v22+
+- [Node.js v22+](https://nodejs.org/en/download)
+- [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 
 ### 1. Start the Local Network
 
