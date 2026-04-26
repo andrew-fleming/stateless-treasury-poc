@@ -193,7 +193,7 @@ const rrr = {
 
     console.log('  +----------------------------------------------------------+');
     console.log('  |  FULL ROUND TRIP CONFIRMED                               |');
-    console.log('  |                                                           |');
+    console.log('  |                                                          |');
     console.log('  |  1. Minted shielded coin                                 |');
     console.log('  |  2. Deposited into stateless contract                    |');
     console.log('  |  3. Computed commitment locally                          |');
@@ -201,7 +201,7 @@ const rrr = {
     console.log('  |  5. Extracted mt_index (SCALE compact)                   |');
     console.log('  |  6. Constructed QualifiedShieldedCoinInfo                |');
     console.log('  |  7. Spent coin using discovered data                     |');
-    console.log('  |                                                           |');
+    console.log('  |                                                          |');
     console.log('  |  The stateless treasury model is validated.              |');
     console.log('  +----------------------------------------------------------+\n');
   } catch (err: any) {
