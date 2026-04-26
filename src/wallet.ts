@@ -24,7 +24,6 @@ import {
   PublicKey,
   UnshieldedWallet,
 } from '@midnight-ntwrk/wallet-sdk-unshielded-wallet';
-import type { CompiledContract } from '@midnight-ntwrk/compact-js';
 
 import { CONFIG } from './config.js';
 
