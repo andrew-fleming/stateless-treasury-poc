@@ -62,6 +62,20 @@ Next, fund the wallet.
 Switch to the midnight-local-dev terminal, select option `[2]` and paste the `mn_addr_undeployed...` address.
 The deploy script will detect the funds, register for DUST, and deploy.
 
+```bash
+  Funds received!
+
+--- Step 3: DUST Setup ---
+
+  Registering for DUST generation...
+  Waiting for DUST tokens...
+  DUST ready.
+
+--- Step 4: Deploy Token ---
+
+  Deploying (this may take 30-60 seconds)...
+```
+
 ### 3. Deploy Receive Contract
 
 ```bash
