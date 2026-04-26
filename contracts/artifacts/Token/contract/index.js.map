@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "file": "index.js",
+  "sourceRoot": "../../../../",
+  "sources": ["contracts/Token.compact", "compiler/standard-library.compact"],
+  "names": [],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;EAGA;;;;;;;;;;MAIA,AAAA,IAOC;;;;;cANC,WAAsD;cACtD,QAAgB;cAChB,OAAgB;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;yCAFhB,WAAsD,+BACtD,QAAgB,+BAChB,OAAgB;;;;;;;;;sCAFhB,WAAsD;sCACtD,QAAgB;sCAChB,OAAgB;;;OAIjB;;;;GACA;EAZD;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;GAYC;ECyGD,AAAA,aAAyB,cAAuB;qCACC,cAAY;;;EAG7D,AAAA;;uBACE;uBACA;uBACA;uBACA;;UAEM,kBAAiC;;yCAAwB;iEAAY;;;;;;;;;;;;4BAAuB;IAClG;;;;;;;;;;;2HAAoB;;;;;;2HAAY;;;;;;;;;;;;;yDACd,QAAM;UAClB,8BAAoB,QAAM;IAChC;;;;;;;;;;;2HAA2B;;;;;;SAEtB;;sBAAqB;8CAAyB;;;;;;;;;;;;;MACjD;;;;;;;;;;;6HAA6B;;;;;;;WAExB;;EAgHT,AAAA,kBACE,QACA;;;0CAKU;8CACI;;sCACJ;sCAAoB;sCAAuB;;EApQvD,AAAA,kBAAA;qEAAA;;;EAAA,AAAA,oBAAA,SAAA;;uDAAA;uDAAA;;;EAAA,AAAA,gDAAA,QAAA;;wDAAA;wDAAA;;;;;;;EDOA,AAAA,OAOC,4BANC,WAAsD,EACtD,QAAgB,EAChB,OAAgB;UAEV,QAAkC;;;qCACf,QAAM;qCAAW,QAAM;qCAAY,OAAK;qCAAY,WAAS;GACvF;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"
+}

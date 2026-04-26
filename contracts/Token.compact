@@ -1,0 +1,15 @@
+// The contract is minimalistic and is only used for this PoC
+// DO NOT USE IN PRODUCTION
+
+pragma language_version >= 0.22.0;
+
+import CompactStandardLibrary;
+
+export circuit mint(
+  recipient: Either<ZswapCoinPublicKey, ContractAddress>,
+  amount: Uint<64>,
+  nonce: Bytes<32>
+): ShieldedCoinInfo {
+  const domain = pad(32, "ShieldedToken:");
+  return mintShieldedToken(domain, disclose(amount), disclose(nonce), disclose(recipient));
+}

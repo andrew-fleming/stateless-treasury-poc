@@ -1,0 +1,18 @@
+// The contract is minimalistic and is only used for this PoC
+// DO NOT USE IN PRODUCTION
+
+pragma language_version >= 0.22.0;
+
+import CompactStandardLibrary;
+
+export circuit deposit(coin: ShieldedCoinInfo): [] {
+  receiveShielded(disclose(coin));
+}
+
+export circuit spend(
+  coin: QualifiedShieldedCoinInfo,
+  recipient: Either<ZswapCoinPublicKey, ContractAddress>,
+  amount: Uint<128>
+): [] {
+  sendShielded(disclose(coin), disclose(recipient), disclose(amount));
+}
