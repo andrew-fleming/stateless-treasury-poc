@@ -6,7 +6,6 @@
     "compile": "compact compile contracts/Receive.compact contracts/artifacts/Receive && compact compile contracts/Token.compact contracts/artifacts/Token",
     "build": "tsc",
     "deploy": "tsx src/deploy.ts",
-    "deploy-receive": "tsx src/deploy-receive.ts",
     "start-proof-server": "docker run -p 6300:6300 midnightntwrk/proof-server:8.0.3 -- midnight-proof-server -v",
     "discover": "tsx src/discover.ts"
 },
