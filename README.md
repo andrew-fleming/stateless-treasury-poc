@@ -61,7 +61,6 @@ Waiting for funds...
 Next, fund the wallet.
 Switch to the midnight-local-dev terminal, select option `[2]` and paste the `mn_addr_undeployed...` address.
 The deploy script will detect the funds, register for DUST, and deploy.
-Save the contract address that it prints.
 
 ### 3. Deploy Receive Contract
 
