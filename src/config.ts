@@ -1,7 +1,7 @@
 /** * Network configuration and deployment address management.
  *
  * Network endpoints are configured here. Deployed contract addresses
- * are persisted to deployments.json and loaded at runtime — no hardcoding.
+ * are persisted to deployments.json and loaded at runtime.
  */
 
 import * as fs from 'node:fs';
