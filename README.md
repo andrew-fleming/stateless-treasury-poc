@@ -161,7 +161,7 @@ The operator reconstructs the coin info from parameters communicated off-chain o
 After minting, compute the expected commitment using `persistentHash` with the protocol's `CoinPreimage` struct layout:
 
 ```ts
-    import { computeContractCoinCommitment, bytesToHex, hexToBytes } from './commitment';
+    import { computeContractCoinCommitment } from './commitment';
 
     const commitment = computeContractCoinCommitment(coinInfo, fromHex(contractAddress));
     const commitmentHex = toHex(commitment);
