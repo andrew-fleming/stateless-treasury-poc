@@ -163,7 +163,13 @@ After minting, compute the expected commitment using `persistentHash` with the p
 ```ts
     import { computeContractCoinCommitment } from './commitment';
 
-    const commitment = computeContractCoinCommitment(coinInfo, fromHex(contractAddress));
+    const recipient = {
+      is_left: false,
+      left: { bytes: new Uint8Array(32) },
+      right: {bytes: encodeContractAddress(contractAddress) }
+    }
+
+    const commitment = computeContractCoinCommitment(coinInfo, recipient);
     const commitmentHex = toHex(commitment);
 ```
 
