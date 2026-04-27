@@ -38,7 +38,6 @@ export function computeCoinCommitment(
   coinInfo: EncodedShieldedCoinInfo,
   recipient: EncodedRecipient,
 ): Uint8Array {
-  const f = coinInfo;
   const result = ocrt.runtimeCoinCommitment(
     {
       value: ShieldedCoinInfoDescriptor.toValue(coinInfo),
