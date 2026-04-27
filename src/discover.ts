@@ -103,13 +103,13 @@ async function main() {
 
   console.log('--- Step 4: Compute Commitment ---\n');
 
-const rrr = {
-  is_left: false,
-  left: { bytes: new Uint8Array(32) },
-  right: {bytes: encodeContractAddress(RECEIVE_ADDRESS) }
-}
+  const recipient = {
+    is_left: false,
+    left: { bytes: new Uint8Array(32) },
+    right: {bytes: encodeContractAddress(RECEIVE_ADDRESS) }
+  }
 
-  const commitment = computeCoinCommitment(coinInfo, rrr);
+  const commitment = computeCoinCommitment(coinInfo, recipient);
   const commitmentHex = toHex(commitment);
   console.log(`  Expected: ${commitmentHex}\n`);
 
